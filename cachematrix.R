@@ -1,9 +1,6 @@
 
 # Assignment: Caching and calculating the inverse of a matrix
 
-## Put comments here that give an overall description of what your
-## functions do
-
 # makeCacheMatrix creates a special matrix that stores a matrix and a cached version.
 # The global function contains a secondary function that uses scoping rules to store the inverse
 # of a matrix.
