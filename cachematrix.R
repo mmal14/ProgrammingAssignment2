@@ -1,6 +1,9 @@
 
 # Assignment: Caching and calculating the inverse of a matrix
 
+## Put comments here that give an overall description of what your
+## functions do
+
 # makeCacheMatrix creates a special matrix that stores a matrix and a cached version.
 # The global function contains a secondary function that uses scoping rules to store the inverse
 # of a matrix.
@@ -53,7 +56,7 @@ cacheSolve <- function(x, ...) {
   # If inverse in cache then return it
   check_inv <- x$getInv()
   if (!is.null(check_inv)) {
-    message("Retrieve cached inverse matrix")
+    message("getting cached inverse")
     return(check_inv)
   }
   solve_matrix <- solve(x$get())
